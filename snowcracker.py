@@ -2,7 +2,7 @@
 import os
 import sys
 if len(sys.argv) != 3:
-	print("usage : python snowcracker.py wordlist file")
+	print("usage : snowcracker.py wordlist file")
 else:
 	wordlist = open(sys.argv[1], "r")
 	ct = sys.argv[2]
