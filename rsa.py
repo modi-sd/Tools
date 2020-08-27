@@ -1,6 +1,6 @@
 import sympy
 import gmpy2
-print("1.calculate n\n2.calculate p\n3.calculate q\n4.encryption with n and e\n5.calculate d\n6.decryption with n, e ,p , ct\7.decrypt with small e")
+print("1.calculate n\n2.calculate p\n3.calculate q\n4.encryption with n and e\n5.calculate d\n6.decryption with n, e ,p , ct\n7.decrypt with small e")
 choose = int(raw_input("choose operation = "))
 if choose == int(1):
 	q = int(raw_input("Enter q = "))
